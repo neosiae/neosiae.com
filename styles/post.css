@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+h1, h2 {
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+a {
+  color: #000;
+}
+
+code {
+  font-size: 1.1rem !important;
+  overflow: auto;
+}
+
+pre {
+  margin: 1rem 0;
+  overflow: auto;
+}
+
+article {
+  padding: 2rem;
+}
+
+.post header {
+  margin-bottom: 1rem;
+}
+
+.post .home {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.post .title {
+  margin: 0;
+}
+
+.post .date {
+  font-size: 1rem;
+  display: block;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+@media (min-width: 992px) {
+  article {
+    max-width: 42.5rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  code {
+    font-size: 1.3rem !important;
+  }
+}

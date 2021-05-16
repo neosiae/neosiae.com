@@ -1,0 +1,25 @@
+{
+  "name": "neosiae.com",
+  "version": "1.0.0",
+  "description": "neosiae in cyberspace",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neosiae/neosiae.com.git"
+  },
+  "author": "Denis Kotlica <neosiae@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neosiae/neosiae.com/issues"
+  },
+  "homepage": "https://github.com/neosiae/neosiae.com#readme",
+  "dependencies": {
+    "front-matter": "^4.0.2",
+    "marked": "^2.0.3",
+    "prismjs": "^1.23.0"
+  }
+}
