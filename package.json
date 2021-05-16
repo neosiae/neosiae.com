@@ -2,7 +2,7 @@
   "name": "neosiae.com",
   "version": "1.0.0",
   "description": "neosiae in cyberspace",
-  "main": "index.js",
+  "main": "build.js",
   "type": "module",
   "scripts": {
     "build": "node build.js"
