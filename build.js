@@ -115,8 +115,3 @@ const recreateBuildDir = () => {
   copyStyles()
   copyImages()
 })()
-
-
-
-
-
