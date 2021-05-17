@@ -36,6 +36,7 @@ export const createHead = ({ title, description, post }) =>
     <meta property="og:description" content="${description}" />
     <meta property="og:image"       content="cover.jpg" />
     <meta name="twitter:card"       content="summary_large_image" />
+    <meta name="twitter:image"      content="cover.jpg" />
   `
 
 export const createPostHeader = ({ title, date }) =>
