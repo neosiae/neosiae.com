@@ -143,7 +143,7 @@ const createDog = ({ name }) => pipe(
   withEat,
   withWalk,
   withBark,
-  withName,
+  withName
 )({ name })
 
 const createCat = ({ name }) => pipe(
