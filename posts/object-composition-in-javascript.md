@@ -52,10 +52,22 @@ After we implemented all desired methods it is time to merge them and create our
 
 ```javascript
 const createDog = ({ name }) =>
-  Object.assign({ name }, withEat(), withWalk(), withBark(), withName())
+  Object.assign(
+    { name },
+    withEat(),
+    withWalk(),
+    withBark(),
+    withName()
+  )
 
 const createCat = ({ name }) =>
-  Object.assign({ name }, withEat(), withWalk(), withMeow(), withName())
+  Object.assign(
+    { name },
+    withEat(),
+    withWalk(),
+    withMeow(),
+    withName()
+  )
 ```
 
 You can see how we merged methods with `Object.assign` and reused code between objects. Now we can create dogs and cats and use their methods.
