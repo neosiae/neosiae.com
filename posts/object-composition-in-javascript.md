@@ -86,7 +86,7 @@ kitty.sayName() // My name is Kitty
 ```
 
 What I like to do is to modifiy our functions with methods to take an object as an argument and merge it with the object we return so I can use `pipe` utility 
-function to compose objects. `pipe` gives us more readable code in my opinion.
+function to compose objects.
 
 ```javascript
 const withEat = o => ({
