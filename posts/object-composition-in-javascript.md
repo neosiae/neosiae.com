@@ -11,7 +11,7 @@ introduce you a different approach of thinking and code reuse when you work with
 When we work with classes and inheritance we think in terms of what things are. Object composition is different, because we think in terms of what 
 things can do. It gives us flexibility to create our objects and reuse code very easily.
 
-To accomplish object composition in JavaScript we simply create functions that return objects with desired methods, then we merge 
+To accomplish object composition in JavaScript we simply create functions that return objects with the desired methods, then we merge 
 all methods we want to have in our final object.
 
 Lets say we want to create dog and cat objects. We will first start with the implementation of the methods we want to have.
